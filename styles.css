@@ -292,3 +292,50 @@ Menu
     height: 150px;
   }
 }
+
+
+@media screen and (max-width: 480px) {
+  .section-center{
+    width: 100vw;
+    margin: 0;
+  }
+
+  .menu-item{
+    display: flex;
+    gap: 2rem; 
+    margin-left: -20rem;
+    width: 75vw;
+  }
+
+  .menu-item img{
+    width: 180px;
+    object-fit: cover;
+  }
+
+  .title-name{
+    letter-spacing: 0; 
+  }
+
+  .searchTab, .section-center{
+    max-width: 90%;
+  }
+
+  .search-area{
+    max-width: 90%;
+  }
+
+  .btn-container{
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .title{
+    margin-top: -2rem;
+    margin-bottom: 0;
+  }
+
+  .title h2{
+    font-size: 1.4rem;
+  }
+}
