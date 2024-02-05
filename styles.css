@@ -36,10 +36,10 @@ Variables
   --clr-grey-7: hsl(211, 27%, 70%);
   --clr-grey-8: hsl(210, 31%, 80%);
   --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(0, 62%, 93%);
+  --clr-grey-10: hsl(0, 47%, 96%);
   --clr-white: #fff;
   --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(0, 79%, 85%);
+  --clr-red-light: hsl(0, 71%, 96%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-gold: #70c55f;
@@ -326,6 +326,7 @@ Menu
 
   .btn-container{
     max-width: 90%;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
